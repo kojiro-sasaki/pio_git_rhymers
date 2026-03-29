@@ -5,8 +5,12 @@ public class DefaultCountingOutRhymer {
     private static final int MAX_SIZE = 12;
     private static final int EMPTY = -1;
     private static final int DEUFALT = -1;
-    private final int[] numbers = new int[MAX_SIZE]; 
-    public int total = EMPTY;
+    private final int[] numbers = new int[MAX_SIZE];
+    private int total = EMPTY;
+
+    public int getTotal() {
+        return total;
+    }
 
     public void countIn(int in) {
         if (!isFull())
