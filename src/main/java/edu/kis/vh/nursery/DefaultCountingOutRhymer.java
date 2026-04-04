@@ -20,6 +20,7 @@ public class DefaultCountingOutRhymer {
      * Dodaje element do wyliczanki.
      * @param in liczba do dodania
      */
+    // TODO: ciche odrzucenie elementu gdy stos pełny - rozważyć rzucenie wyjątku
     public void countIn(int in) {
         if (!isFull())
             numbers[++total] = in;

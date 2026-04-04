@@ -18,6 +18,7 @@ public class IntLinkedList {
         return last == null;
     }
 
+    // TODO: metoda isFull() zawsze zwraca false - rozważyć dodanie limitu rozmiaru
     public boolean isFull() {
         return false;
     }
