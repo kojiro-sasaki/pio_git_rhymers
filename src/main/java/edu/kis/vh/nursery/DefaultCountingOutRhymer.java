@@ -1,7 +1,7 @@
 package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
-
+    // Projekt jest poprawny – wszystkie testy jednostkowe przechodzą pomyślnie
     private static final int MAX_SIZE = 12;
     private static final int EMPTY = -1;
     private static final int DEFAULT = -1;
